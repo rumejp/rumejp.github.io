@@ -110,7 +110,9 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 }
 
 h1, .h1 {
+  -webkit-text-stroke: 4px navy;
   font-size: calc(1.375rem + 1.5vw);
+  color:#33ccff;
 }
 @media (min-width: 1200px) {
   h1, .h1 {
@@ -11322,7 +11324,7 @@ header.masthead {
   overflow: hidden;
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
-  background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
+  background-image: url('bg.png');
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
@@ -11342,7 +11344,6 @@ header.masthead .bg-circle {
   z-index: 0;
   position: absolute;
   border-radius: 100%;
-  background: linear-gradient(0deg, #ee0979 0%, #ff6a00 100%);
 }
 header.masthead .bg-circle-1 {
   height: 90rem;
